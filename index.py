@@ -15,7 +15,7 @@ from bisect import bisect_right
 from datetime import datetime, timezone
 
 if sys.platform != "win32":
-    sys.exit("this version is for Windows only")
+    sys.exit("this version is for Windows users only")
 
 try:
     from winrt.windows.media.control import (
